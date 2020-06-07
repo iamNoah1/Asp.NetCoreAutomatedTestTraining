@@ -21,4 +21,7 @@ Now that you know how to use the `PasswordValidator` Class, it's time to start w
 
 Tasks:
 * Create a new Project named `ÙnitTests`
-* Add the needed dependencies for unit testing to the `UnitTests` project. We will use XUnit here.
+* Add the needed dependencies for unit testing to the `UnitTests` project. We will use XUnit here
+* Add a Class named `PasswordValidatorTester`
+* Add a Test Method which contains a trivial test (Assert.True(true)) just to see if Unit Testing was bootstrapped correctly
+* Run the Unit Tests 
