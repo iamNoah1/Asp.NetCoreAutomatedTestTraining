@@ -15,3 +15,10 @@ At this point the solution only contains the `BusinessLogic` Project which is a 
 Tasks:
 * Have a look at the `PasswordValidator` class
 * In the Main Entry Point, play around by using the `PasswordValidator` class in order to get familiar with its functiontality 
+
+### Step 1
+Now that you know how to use the `PasswordValidator` Class, it's time to start with Unit Tests. Have a look at the main entry point. Now there are some example usages of `PasswordValidator` class. 
+
+Tasks:
+* Create a new Project named `ÙnitTests`
+* Add the needed dependencies for unit testing to the `UnitTests` project. We will use XUnit here.
