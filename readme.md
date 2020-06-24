@@ -32,4 +32,5 @@ At this point everything should be prepared for writing some test cases for the 
 Tasks: 
 * Write Tests cases for the happy path
 * Write Tests cases for the bad path
-
+* (optional) Write Test cases for the edge cases
+* Run your tests :) 
