@@ -34,3 +34,11 @@ Tasks:
 * Write Tests cases for the bad path
 * (optional) Write Test cases for the edge cases
 * Run your tests :) 
+
+### Step 3 
+You should have written some test cases by now. Anyway, I have also done that. Check the `PasswordValidatorTester` Class and compare it to the test cases you have written. Admittedly those testing examples were pretty simple, right? Now let's have a look at more real life use cases.  
+
+Tasks:
+* Create a `UserController` with an endpoint that allow to add a user (simple json body containing name and password)
+* Take into account validating the body and returning respective http response codes (200, 422, 412, 500)
+* Create a `UserService` to handle the persistence of a user 
