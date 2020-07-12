@@ -41,4 +41,5 @@ You should have written some test cases by now. Anyway, I have also done that. C
 Tasks:
 * Create a `UserController` with an endpoint that allow to add a user (simple json body containing name and password)
 * Take into account validating the body and returning respective http response codes (200, 400, 500)
-* Create a `UserService` to handle the persistence of a user. Let's use MongoDB for this training, if you don't know how to use MongoDB inside a .Net application have a look at (this example project)[https://github.com/iamNoah1/azure-functions-mongodb]. 
+* Create a `UserService` to handle the persistence of a user. Let's use MongoDB for this training, if you don't know how to use MongoDB inside a .Net application have a look at (this example project)[https://github.com/iamNoah1/azure-functions-mongodb].
+* Run your API. Therefore you will need to change the Program.cs and 
