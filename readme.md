@@ -20,7 +20,7 @@ Tasks:
 Now that you know how to use the `PasswordValidator` Class, it's time to start with Unit Tests. Have a look at the main entry point. Now there are some example usages of `PasswordValidator` class. 
 
 Tasks:
-* Create a new Project named `ÙnitTests`
+* Create a new Project named `UnitTests`
 * Add the needed dependencies for unit testing to the `UnitTests` project. We will use XUnit here
 * Add a Class named `PasswordValidatorTester`
 * Add a Test Method which contains a trivial test (Assert.True(true)) just to see if Unit Testing was bootstrapped correctly
