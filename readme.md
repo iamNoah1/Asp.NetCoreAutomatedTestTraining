@@ -42,4 +42,12 @@ Tasks:
 * Create a `UserController` with an endpoint that allows to add a user (simple json body containing name and password)
 * Take into account validating the body and returning respective http response codes (200, 400, 500)
 * Create a `UserService` to handle the persistence of a user. Let's use MongoDB for this training, if you don't know how to use MongoDB inside a .Net application have a look at (this example project)[https://github.com/iamNoah1/azure-functions-mongodb].
-* Run your API. Therefore you will need to change the Program.cs and add a Startup.cs file. You know how to do that, right? 
+* Run your API. Therefore you will need to change the Program.cs and add a Startup.cs file. You know how to do that, right?
+
+### Step 4
+Ok, let's see. We have an API that can persist a user. Have a look at the solution of step 3 and compare it to your solution. It should be pretty similar to one another. Now let's get our hands dirty and write some unit tests for the controller. Note: in order to properly connect to MongoDB you will need to set the envirionment variable `MONGO_DB_CONNECTION_STRING`to the actual connection string of a running MongoDB.
+
+Tasks:
+* Think about the testing scope. What do we want to test and what do want to mock?!
+* Think about the possible test cases of the controllers method to add a user. Write them down as XUnit test cases.
+* Implement your test cases.
