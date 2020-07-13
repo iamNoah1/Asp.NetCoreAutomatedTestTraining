@@ -6,6 +6,9 @@ This is a project that can be used for training regarding unit and integration t
 ### BusinessLogic
 The `BusinessLogic` Project contains the elements that we want to test.
 
+### UnitTests
+The `UnitTests` project containts unit tests for the `BusinessLogic` project.
+
 ## How to use 
 The project has different branches that represent the steps you can go through, building a little application and add tests while the app grows. Also this readme file will grow with each step and contain the respective instructions. Each following step will contain solutions for the tasks of the step before. So just start by checking out `step0` branch. 
 
