@@ -50,4 +50,4 @@ Ok, let's see. We have an API that can persist a user. Have a look at the soluti
 Tasks:
 * Think about the testing scope. What do we want to test and what do want to mock?!
 * Think about the possible test cases of the controllers method to add a user. Write them down as XUnit test cases.
-* Implement your test cases.
+* Implement your test cases. You will have to mock stuff, the recommendation is to use Moq as mocking framework. 
