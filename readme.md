@@ -54,5 +54,7 @@ Tasks:
 * Implement your test cases. You will have to mock stuff, the recommendation is to use Moq as mocking framework.
 
 ### Step 5
-I hope you had no trouble with the last tasks. It was a little bit tricky to test the controller regarding the dependencies to the service and the validator right? Check my solution and compare it yours. 
+I hope you had no trouble with the last tasks. It was a little bit tricky to test the controller regarding the dependencies to the service and the validator right? Check my solution and compare it yours. At this point we are prett much done with unit testing. You think about unit testing the service class, but it does not contain any logic. It pretty stupid and acts only as a proxy for persistence. The last tasks were the most tricky ones, so for the last step we will do something really ease. We make use of the test coverage and refactor some parts of the code without having to fear of breaking anything. 
 
+Tasks:
+* In the UserController there is some code duplication regarding error responses. Remove that code duplication. 
