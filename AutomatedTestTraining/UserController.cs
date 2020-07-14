@@ -14,10 +14,10 @@ namespace BusinessLogic
         private UserService userService;
         private PasswordValidator validator;
 
-        public UserController()
+        public UserController(UserService userService, PasswordValidator validator)
         {
-            this.userService = new UserService();
-            this.validator = new PasswordValidator();
+            this.userService = userService;
+            this.validator = validator;
         }
 
         [HttpPost]

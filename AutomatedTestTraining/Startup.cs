@@ -16,6 +16,8 @@ namespace BusinessLogic
         {
             services.AddControllers();
             services.AddMvc().AddNewtonsoftJson();
+            services.AddSingleton<UserService, UserService>();
+            services.AddSingleton<PasswordValidator, PasswordValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

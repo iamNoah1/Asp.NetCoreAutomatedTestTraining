@@ -52,3 +52,7 @@ Tasks:
 * Think about the testing scope. What do we want to test and what do want to mock?!
 * Think about the possible test cases of the controllers method to add a user. Write them down as XUnit test cases.
 * Implement your test cases.
+
+### Step 5
+I hope you had no trouble with the last tasks. It was a little bit tricky to test the controller regarding the dependencies to the service and the validator right? Check my solution and compare it yours. 
+
