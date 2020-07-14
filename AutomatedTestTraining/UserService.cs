@@ -10,7 +10,7 @@ namespace BusinessLogic
         public UserService()
         {}
 
-        public async Task AddUser(UserModel userToAdd)
+        virtual public async Task AddUser(UserModel userToAdd)
         {
             await Collection().InsertOneAsync(userToAdd);
         }

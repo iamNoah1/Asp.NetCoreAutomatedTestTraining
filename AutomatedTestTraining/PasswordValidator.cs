@@ -4,7 +4,7 @@ namespace BusinessLogic
 {
     public class PasswordValidator
     {
-        public bool IsValid(string passwordToCheck)
+        virtual public bool IsValid(string passwordToCheck)
         {
             bool result = true;
 
