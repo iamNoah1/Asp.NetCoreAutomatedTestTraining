@@ -1,5 +1,5 @@
 # Automated Test Training 
-This is a project that can be used for training regarding unit and integration testing of ASP .Net Core Applications. 
+This is a project that can be used for training regarding unit and integration testing of ASP .Net Core Applications. There are [some slides](https://de.slideshare.net/nispas/automated-testing-of-asp-net-core-applications) available as accompaniment to this repo. 
 
 ## Solution Anatomy 
 
